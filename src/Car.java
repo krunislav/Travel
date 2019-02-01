@@ -87,5 +87,11 @@ public class Car {
         System.out.println("U automobil " + this.model + " je sipano " + (this.maxFuel - this.currentFuel) + " litara goriva");
         this.currentFuel = maxFuel;
     }
+    
+    public void fuelUp2() {
+        double fuiled = this.maxFuel - this.currentFuel;
+        this.currentFuel = this.maxFuel;
+        System.out.println("U automobil " + this.model + " je sipano " + fuiled + "  litara goriva");
+    }
 
 }
